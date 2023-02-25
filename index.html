@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-   
-    
-    <nav id="navbar">
-      
-        <li>
-          <a href="#welcome-section">Works Sapce Section</a>
-        </li>
-        <li>
-          <a href="#Projects">Our Work</a>
-        </li>
+<body>
+  <nav class="navbar">
+    <ul>
       <li>
-        <a href="#contacts">Contact</a>
+        <a href="#hello">About</a>
       </li>
-        
-      </nav>
-      <div class="Hello">
-        <h1>Hello World,we are software developers!</h1>
+      <li>
+        <a href="#work">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="welcome" id="hello">
+    <h1>Hello World </h1>
+    <p> We are software developers!</p>
+  </div>
+  <section class="work-section" id="work">
+    <h1 class="work-header">These are some of our projects.</h1>
+    <div class="project-grid">
+      <div class="portfolio">
+        <img class="project-image " src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="Tribute Page">
+        <p>Tribute Page</p>
       </div>
-      <div class="Welcome">
-      <section id="welcome-section">
-    <h1>You are welcome to this page.</h1>
-      </section>
+      <div class="portfolio">
+        <img class="project-image "
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+          alt="My 2nd portfolio">
+        <p>Random Quote Machine</p>
+      </div>
+      <div class="portfolio">
+        <img class="project-image " src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+          alt="Calculator Project">
+        <p>Calculator Project</p>
+      </div>
     </div>
-  <div class="Project">
-    <section id="projects"><a href="https://codepen.io/freeCodeCamp/full/zNqgVx" >Tribute Page</a>
-      <section class="project-tile">
-        <p >Welcome to Project</p>
-      </section>
+  </section>
+  <div class="contact" id="contact">
+    <section class="project-title">
+      <p>Let's Work Togather...
+      </p>
+      <h5>How do you take your coffe?</h5>
     </section>
+    <div class="social-icons">
+      <ul class="icons-list">
+        <li class="icon">
+          <img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png" />
+          <p>Linkedin</p>
+        </li>
+        <li class="icon">
+          <img src="https://img.icons8.com/fluency/48/null/github.png" />
+          <p>Github</p>
+        </li>
+        <li class="icon">
+          <img src="https://img.icons8.com/color/48/null/twitter--v1.png" />
+          <p>Twitter</p>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="link">
-    <section><a id="profile-link" href="https://github.com/Jawad-Nazari/HTML-and-CSS-Project---Abiy-and-Jawad" target="_blank" >
-    Click Here to rach My GitHub</a>
-    </section>
-  
-  </div>
-  </body>
+
+</body>
+
 </html>

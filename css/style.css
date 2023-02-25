@@ -1,26 +1,170 @@
 @media (max-width: 600px) {
     #navbar {
-      padding: 0rem 1rem;
-      justify-content: center;
+        padding: 0rem 1rem;
+        justify-content: center;
     }
 
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 12px;
+}
+
 #welcome-section {
     display: flex;
     width: 100%;
-    height:100vh;
-}
-#navbar {
-    display: flex;
-    top:0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-    background-color: brown;
-    
-}
-.Welcome{
-    top: 100px;
- height: 100px;
+    height: 100vh;
 }
 
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: #be3144;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin-right: 2%;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 2rem;
+}
+
+.navbar a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.welcome h1 {
+    align-self: center;
+    color: white;
+    font-size: 8rem;
+}
+
+.welcome p {
+    margin-top: 2%;
+    color: #be3144;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.work-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #45567d;
+
+}
+
+.project-grid {
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+.work-header {
+    align-self: center;
+    color: white;
+    font-size: 3rem;
+    border-bottom: 0.2rem solid white;
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.title-border {
+    margin-top: 1%;
+    border-bottom: 0.2rem solid white;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio p {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #303841;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title p {
+    color: white;
+    font-size: 5rem;
+}
+
+
+.project-title h5 {
+
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.social-icons {
+    width: 50%;
+}
+
+
+.icons-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    size: 2%;
+    color: white;
+
+}
+
+.icon p {
+    margin-top: 10%;
+    font-size: 2rem;
+}
